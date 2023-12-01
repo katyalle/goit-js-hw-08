@@ -40,6 +40,7 @@ form.addEventListener('submit', (event) => {
     email: form.elements.email.value,
     message: form.elements.message.value,
   });
+  form.reset ()
 });
 
 document.addEventListener('DOMContentLoaded', () => {
